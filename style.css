@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   background: linear-gradient(to right, #2aa10d,#81de96) ;
+}
+
+textarea{
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 3px;
+    resize: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.calculator{
+    background-color:#e7f2e4;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.515);
+}
+
+.calculator .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form label{
+    font-size: 1.3em;
+}
+
+.form input{
+    width: 290px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    margin-top: 10px;
+    padding: 6px;
+}
+
+ input, textarea:focus{
+    outline: 0;
+}
+
+.form .btn{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form .btn button{
+    padding: 10px;
+    background-color: #8df573;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form .btn button:hover{
+    background-color: #3e9c27;
+}
+
+.form .name, .peso, .altura{
+    margin-top: 10px;
+}
+
+.imc{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.areaInformation{
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
